@@ -6,3 +6,7 @@
 	text-shadow: #EEEE00 0 0 10px;
 	font-family: Lobster;
 }
+
+img {
+	display: none;
+}
