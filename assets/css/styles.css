@@ -226,22 +226,23 @@ a:hover {
 **********************************************************************/
 #head {
   background: #f4f4f4 top center;
-  background-image: url(../images/dark_tint.png), url(../images/background.jpg);
   background-size: cover;
   color: #7C7C7C;
-  padding: 30px 0 35px 0;
+  padding: 0;
 }
 #head img.img-circle {
+  position: relative;
   display: block;
   width: 300px;
   height: 300px;
   overflow: hidden;
   border: 9px solid rgba(0, 0, 0, 0.05);
   margin: 0 auto;
+  z-index: 3;
 }
 #head .title {
   font-family: Alice, Georgia, serif;
-  color: #ffffff;
+  color: #777;
   font-size: 49px;
   font-size: 3.0625rem;
 }
@@ -254,7 +255,7 @@ a:hover {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #ffffff;
+  color: #777;
   margin: 2% 2% 0 2%;
 }
 #head .tagline b {
@@ -263,14 +264,13 @@ a:hover {
 #head .tagline a {
   color: #5E5E5E;
 }
-.home #head {
-  padding: 90px 0;
-}
 .home #head .title {
+  position: relative;
   font-size: 49px;
   font-size: 3.0625rem;
 }
 .home #head .tagline {
+  position: relative;
   font-size: 16px;
   font-size: 1rem;
   margin: 2% 2% 0 2%;
