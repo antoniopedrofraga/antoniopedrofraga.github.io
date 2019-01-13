@@ -7,65 +7,100 @@
 	<meta name="author"      content="António Pedro Fraga">
 	
 	<title>António Pedro Fraga</title>
+	<!-- Bootstrap -->
+	<link href="assets/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<!-- Icons -->
+	<link href="assets/libs/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<!-- Particles styles -->
+	<link rel="stylesheet" href="assets/css/particles.css">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css"  media="screen,projection"/>
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
 <body class="home">
+	<div class="parallax-container">
+		<div class="parallax"><img src="assets/images/lisbon.jpg"></div>
+	</div>
 	<header id="header">
 		<div id="head">
-			<div id="particles-js"></div>
-            <div id="navbar" class="navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="disabled"><a href="#">Blog</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-        	</div>
 			<h1 id="logo" class="text-center">
 				<img data-aos="fade-down" class="img-circle" src="assets/images/me.png" alt="">
 				<span data-aos="fade-down" class="title">António Pedro Fraga</span>
-				<span data-aos="fade-down" class="tagline">Informatics and Computing Engineering student @ FEUP<br></span>
 			</h1>
 		</div>
 	</header>
 
+
 	<main id="main">
-
+		<div id="lisbon" class="row section featured">
+			<div class="container text-center">
+				<h2 id="about" class="section-title">
+					<span>Software Engineer @ Feedzai</span>
+				</h2>
+				<div class="date">
+					August 2018 - Present
+				</div>
+			</div>
+			<div class="row">
+				<div>
+					<div class="container">
+						<p>My name is António Pedro Araújo Fraga, I was born on August 3<span class="ordinal">rd</span>, 1995 in Oporto, Portugal to my mom Isabel Fraga and dad Francisco Fraga. I'm currently working at Feedzai, a company that analyzes big data with machine learning in order to detect financial fraud. We handle more than $3 billion in transactions per day, so our code needs to be reliable and fast. I work with Java, using it to improve the performance of database accesses, following the best design and programming practices in order to obtain a fast, consistent and scalable system.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="parallax-container">
+			<div class="parallax"><img src="assets/images/uk.jpg"></div>
+		</div>
+		<div id="uk" class="row section featured topspace">
+			<div class="container text-center">
+				<h2 id="about" class="section-title">
+					<span>M.Sc. in the UK</span>
+				</h2>
+				<div class="date">
+					September 2017 - August 2018
+				</div>
+			</div>
+			<div class="row">
+				<div>
+					<div class="container">
+						<p> In 2017 I moved to the United Kingdom to complete my M.Sc. in Software Engineering for Technical Computing @ Cranfield University, in north of London. I've met wonderful people there who were capable of inspiring me to become a better Computer Scientist. I've completed my M.Sc. with a mark of 85/100, and with a thesis whose score was 88/100. My thesis was about postulating a method to give an approximated solution of an Non-Polynomial problem. In brief, a graph partitioning algorithm would run to solve a minimization problem.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="parallax-container">
+			<div class="parallax"><img src="assets/images/porto.jpg"></div>
+		</div>
+		<div id="porto" class="row section featured topspace">
+			<div class="container text-center">
+				<h2 id="about" class="section-title">
+					<span>B.Sc. + M.Sc. @ FEUP</span>
+				</h2>
+				<div class="date">
+					September 2013 - August 2018
+				</div>
+			</div>
+			<div class="row">
+				<div>
+					<div class="container">
+						<p>In 2013 I moved to Porto, Portugal to sudy computer science and software engineering. I've completed my integrated master (B.Sc. + M.Sc.) in 5 years. Porto is such a beautiful city, I miss it sometimes. No city I've visited so far could make me feel like Porto did. I go there to visit my friends and my old unversity once in a while. During this period, knowledge was everywhere, I just had to learn as much as I could.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="container">
+			<div id="projects" class="row section recentworks">
 
-			<div class="row section topspace">
-				<div data-aos="fade-down" class="col-md-12">
-					<p class="lead text-center text-muted">"The people who are crazy enough to think they can change the world are the ones who do." - Steve Jobs</p>
-				</div>
-			</div> <!-- / section -->
-
-			<div class="row section featured topspace">
-				<h2 data-aos="fade-up" id="about" class="section-title"><span>About</span></h2>
-				<div class="row">
-					<div data-aos="fade-right">
-						<h3>Hometown</h3>
-						<p>My name is António Pedro Araújo Fraga, I was born on August 3<span class="ordinal">rd</span>, 1995 in Oporto, Portugal to my mom Isabel Fraga and dad Francisco Fraga. I grew up living in Mirandela, Portugal. I was always very interested for programming. In my highschool I've developed some math programs with a <a href="https://en.wikipedia.org/wiki/TI-84_Plus_series">TI 84 Plus</a>, contributing a lot to the decision of what college/course to attend.</p>
-					</div>
-					<div data-aos="fade-left">
-						<h3>Academia</h3>
-						<p>I went to Escola Secundária de Mirandela for my highschool and graduated with the class of 2013. Currently I'm taking a double degree programme, a <a href="https://sigarra.up.pt/feup/en/cur_geral.cur_view?pv_ano_lectivo=2012&pv_curso_id=742">Master in Informatics and Computing Engineering</a> at the <a href="https://en.wikipedia.org/wiki/Faculdade_de_Engenharia_da_Universidade_do_Porto">Faculty of Engineering of the University of Porto</a>, and a <b>Master in Software Engineering for Technical Computing</b> at <b>Cranfield University</b>.</p>
-					</div>
-					<div data-aos="fade-right">
-						<h3>Programming</h3>
-						<p>As I mentioned before, my first contact with the programming world was with a <a href="https://en.wikipedia.org/wiki/TI-84_Plus_series">TI 84 Plus</a>, I've developed some games and useful programs to my classes and tests. In 2015 I was part of a team in <a href="https://www.portosummerofcode.com/home">Porto Summer of Code</a> programming contest, taking the 2<span class="ordinal">nd</span> place. Algorithmic analysis is one of my best interests. My greatest ambition is to be able to help everyone with my work.
-					</div>
-					<div data-aos="fade-right">
-						<h3>Leaderships & Extracurricular</h3>
-						<p>Soft skills are crucial to be able to work in the best conditions in the future. In 2016 I was part of the Organising Comittee of Queima das Fitas do Porto, an event for more than 50,000 people. From July 2016 to July 2017, I was head of the Cultural Department of <a href="https://www.facebook.com/aefeup/">FEUP Students Association</a>, leading and managing a team with 20 elements in order to organise musical, literary and cinemagraphic events. From September 2017 to January 2017, I was Scrum Master of a Social Impact project called <a href="http://birthadvisor.pt">birthadvisor</a>. From February 2017 to June 2017, I was CEO of a company developed under a course unit @ FEUP. Wepp, as we called it, had 40 elements and was divided in 4 different departments, Business, Creative, Technology and Marketing. The technology department was responsible for developing 4 different software projects that were allocated to 4 software teams of our own company. Those projects were developed for real companies: SAGE, DECO, Bitmaker, Lions Academy. As a CEO, working with a Chief Business Officer, a Chief Creative Officer, Chief Marketing Officer and a Chief Technology Officer, I had to manage a whole company in order to develop the company in the several areas. Despite that, I've also worked in one of the 4 software projects, getting my first contact with React.js, but working with some other technologies like Node.js as well.</p>
-					</div>
-				</div>
-			</div> <!-- / section -->
-
-			<div id="projects" class="row section recentworks topspace">
-
-				<h2 class="section-title" data-aos="fade-up"><span>Recent Works</span></h2>
+				<h2 class="section-title" data-aos="fade-up"><span>Recent Work</span></h2>
 
 				<br>
 
@@ -154,7 +189,6 @@
 				<p class="text-center" data-aos="fade-down"><a href="https://github.com/pedrofraga?tab=repositories" class="btn btn-action">More Projects</a></p>
 				<br>
 			</div> <!-- /section -->
-
 		</main>
 
 		<footer id="footer">
@@ -191,7 +225,7 @@
 					<div class="col-md-12 col-sm-12 widget">
 						<div class="widget-body">
 							<p class="text-center">
-								Copyright &copy; 2017, António Pedro Fraga<br> 
+								Copyright &copy; 2019, António Pedro Fraga<br> 
 							</div>
 						</div>
 
@@ -199,23 +233,17 @@
 				</div>
 			</footer>
 
-					<!-- Bootstrap -->
-			<link href="assets/libs/bootstrap/css/bootstrap.css" rel="stylesheet">
-			<!-- Icons -->
-			<link href="assets/libs/font-awesome/css/font-awesome.css" rel="stylesheet">
-			<!-- Custom styles -->
-			<link rel="stylesheet" href="assets/css/styles.css">
-			<!-- Particles styles -->
-			<link rel="stylesheet" href="assets/css/particles.css">
-			<!-- AOS styles -->
-			<link rel="stylesheet" href="assets/libs/aos/dist/aos.css" />
-
 			<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-			<script src="assets/libs/jquery-3.1.1.js"></script>
-			<script src="assets/libs/bootstrap/js//bootstrap.min.js"></script>
-			<script src="assets/libs/particlesjs/particles.js"></script>
-			<script src="assets/libs/aos/dist/aos.js"></script>
-			<script src="assets/js/particles.js"></script>
-			<script src="assets/js/aos.js"></script>
+			<script type="text/javascript" src="assets/libs/jquery-3.1.1.js"></script>
+			<script type="text/javascript" src="assets/libs/bootstrap/js//bootstrap.min.js"></script>
+			<script type="text/javascript" src="assets/libs/materialize/js/materialize.min.js"></script>
+			<script> 
+				 $(document).ready(function(){
+    				$('.parallax').parallax();
+    				if (/Mobi/.test(navigator.userAgent)) {
+    					$(".parallax-container").height(125);
+					}
+ 				 });
+  			</script>
 		</body>
 </html>
